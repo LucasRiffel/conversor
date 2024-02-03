@@ -1,0 +1,35 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.inicio {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(53, 59, 112, 0.466);
+    height: 250px;
+    width: 350px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.divMoeda1 , .divMoeda2  {
+    display: flex;
+}
+
+.moeda-conversao , .moeda-convergida {
+    border-radius: 8px 0px 0px 8px;
+    margin: 0px;
+}
+
+.moeda1 , .moeda2{
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgba(255, 255, 255, 0.507);
+    color: #000000;
+}
