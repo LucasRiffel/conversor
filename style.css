@@ -19,6 +19,10 @@ body {
     border-radius: 20px;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 .divMoeda1 , .divMoeda2  {
     display: flex;
 }
@@ -26,10 +30,14 @@ body {
 .moeda-conversao , .moeda-convergida {
     border-radius: 8px 0px 0px 8px;
     margin: 0px;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: 1px solid #000000;
 }
 
 .moeda1 , .moeda2{
     border-radius: 0px 8px 8px 0px;
     background-color: rgba(255, 255, 255, 0.507);
     color: #000000;
+    border: 1px solid #000000;   
 }
