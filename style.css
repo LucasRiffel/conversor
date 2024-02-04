@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: azure;
+    background-color: rgb(49, 49, 49);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,15 +12,16 @@ body {
     display: grid;
     align-items: center;
     justify-items: center;
-    background-color: rgba(53, 59, 112, 0.466);
+    background-color: rgba(95, 98, 133, 0.466);
     height: 250px;
     width: 350px;
-    border: 1px solid #000000;
+    border: 1px solid #d1d1d1;
     border-radius: 20px;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    color: #ececec;
 }
 
 .divMoeda1 , .divMoeda2  {
@@ -40,4 +41,10 @@ h1 {
     background-color: rgba(255, 255, 255, 0.507);
     color: #000000;
     border: 1px solid #000000;   
+}
+
+.botao-efetuar {
+    background-color: #3f3f3f;
+    color: aliceblue;
+    border-radius: 8px;
 }
