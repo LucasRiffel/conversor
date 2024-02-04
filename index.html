@@ -16,25 +16,27 @@
 
 <body>
     <section class="inicio">
-        <h1>
-            Conversor de Moedas
-        </h1>
-        <div class="divMoeda1">
-            <label class="moeda-conversao">
-                <i class="fas fa-search"></i>
-                <input class="Pesquisa" placeholder="Pesquisar..."></input>
+        <h1>Conversor de Moedas</h1>
+        <div id="moedas" class="divMoedas">
+            <label>
+                <input class="moedaConversao" type="text" placeholder="Insira a moeda de origem (ex: USD)">
             </label>
             <label>
-                <input class="moeda1" type="number" placeholder="insira um valor">
+                <input class="moeda1" type="number" placeholder="Insira o valor a ser convertido">
             </label>
         </div>
-        <div class="divMoeda2">
-            <button class="moeda-convergida">
-                Pesquisar...
-            </button>
+        <div class="divMoedas">
             <label>
-                <input class="moeda2" type="number" placeholder="valor convertido">
+                <input class="moedaConvertida" type="text" placeholder="Insira a moeda de destino (ex: EUR)">
             </label>
+            <label>
+                <input class="moeda2" type="number" placeholder="Valor convertido" readonly>
+            </label>
+        </div>
+        <div>
+            <button class="botao-efetuar">
+                Efetuar conversão
+            </button>
         </div>
     </section>
 

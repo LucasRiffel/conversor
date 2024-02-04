@@ -27,16 +27,12 @@ h1 {
     display: grid;
 }
 
-.moeda-conversao , .moeda-convergida , .moeda-convergida > input {
+.moedaConversao , .moedaConvertida{
     border-radius:  0px;
     margin: 0px;
     background-color: #3f3f3f;
     color: #fff;
     border: 1px solid #000000;
-}
-
-.moeda-conversao:hover , .moeda-convergida:click {
-    background-color: aliceblue;
 }
 
 .moeda1 , .moeda2{
