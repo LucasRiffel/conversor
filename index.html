@@ -3,6 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="icon" href="./img/moeda.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,15 +24,25 @@
                 <input class="moedaConversao" type="text" placeholder="Insira a moeda de origem (ex: USD)">
             </label>
             <label>
-                <input class="moeda1" type="number" placeholder="Insira o valor a ser convertido">
+                <input class="moeda1" type="text" placeholder="Insira o valor a ser convertido">
             </label>
         </div>
+        <section>
+            <div>
+                <button id="trocarMoedas" class="trocarMoedas">
+                    <i class="fas fa-exchange-alt"></i>
+                </button>
+                <button id="limparMoedas">
+                    <i class="fas fa-trash"></i>  
+                </button>
+            </div>
+        </section>
         <div class="divMoeda2">
             <label>
                 <input class="moedaConvertida" type="text" placeholder="Insira a moeda de destino (ex: EUR)">
             </label>
             <label>
-                <input class="moeda2" type="number" placeholder="Valor convertido" readonly>
+                <input class="moeda2" type="text" placeholder="Valor convertido" readonly>
             </label>
         </div>
         <div>

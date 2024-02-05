@@ -12,6 +12,7 @@ body {
     display: grid;
     align-items: center;
     justify-items: center;
+    
     background-color: rgba(95, 98, 133, 0.466);
     height: 250px;
     width: 350px;
@@ -29,22 +30,29 @@ h1 {
 }
 
 .moedaConversao , .moedaConvertida{
-    border-radius:  0px;
+    border-radius: 5px;
     margin: 0px;
     background-color: #3f3f3f;
     color: #fff;
-    border: 1px solid #000000;
+    border: 1px solid #757575;
+    text-align: center;
+    width: 200px;
 }
 
 .moeda1 , .moeda2{
-    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.507);
     color: #000000;
-    border: 1px solid #000000;   
+    border: 1px solid #616161;
+    text-align: center;
 }
 
 .botao-efetuar {
+    font-family: 'Oswald', sans-serif;
     background-color: #3f3f3f;
     color: aliceblue;
     border-radius: 8px;
+    font-size: 15px;
 }
