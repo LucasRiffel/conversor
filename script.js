@@ -39,7 +39,6 @@ function limparMoeda() {
     document.querySelector(".moedaConvertida").value = "";
     document.querySelector(".moeda1").value = "";
     document.querySelector(".moeda2").value = ""; 
-    alert('Todas as informaçôes foram limpas');
 }
 
 document.getElementById("limparMoedas").addEventListener("click", limparMoeda);
