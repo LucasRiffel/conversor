@@ -38,6 +38,8 @@ function limparMoeda() {
     document.querySelector(".moedaConversao").value = "";
     document.querySelector(".moedaConvertida").value = "";
     document.querySelector(".moeda1").value = "";
+    document.querySelector(".moeda2").value = ""; 
+    alert('Todas as informaçôes foram limpas');
 }
 
 document.getElementById("limparMoedas").addEventListener("click", limparMoeda);
@@ -50,6 +52,7 @@ function trocarMoeda() {
     document.querySelector(".moedaConversao").value = valorMoedaConvertida;
     document.querySelector(".moedaConvertida").value = valorMoedaConversao;
     document.querySelector(".moeda1").value = "";
+   
 }
 
 document.querySelector(".botao-efetuar").addEventListener("click", function () {
@@ -65,7 +68,6 @@ document.querySelector(".botao-efetuar").addEventListener("click", function () {
         document.querySelector(".moeda2").value = valorConvertido.toFixed(2);
     } else {
         alert('Moedas inválidas selecionadas');
-        limparMoeda;
     }
 });
 

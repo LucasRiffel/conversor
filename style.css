@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-items: center;
     
-    background-color: rgba(95, 98, 133, 0.466);
+    background-color: rgba(122, 139, 153, 0.5);
     height: 250px;
     width: 350px;
     border: 1px solid #d1d1d1;
@@ -22,7 +22,8 @@ body {
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    color: #ececec;
+    color: #ffffff8c;
+    
 }
 
 .divMoeda1 , .divMoeda2  {
@@ -37,6 +38,11 @@ h1 {
     border: 1px solid #757575;
     text-align: center;
     width: 200px;
+}
+
+.limparMoedas , .trocarMoedas {
+    background-color: #3f3f3f;
+    color: rgb(216, 216, 216);
 }
 
 .moeda1 , .moeda2{
